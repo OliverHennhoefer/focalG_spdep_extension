@@ -10,6 +10,8 @@ Robust Getis-Ord G and G* statistic devised by Julian Bruns (2018)<sup>1</sup><s
 As for spdep::localG(), additionally:
 - Input: _weighted neighborhood list_ ("listw" "nb"), defining the _focal_<sup>3</sup> parameter __listw_f__<br/>
 
+The function is written in the same manner of the original Getis-Ord G* implemented by __spdep::localG__ and can therefore be applied in the same way. Additionally the parameter __listw_f__ has to be defined (spdep::poly2nb and spdep::nb2listw). The area defined for the focal parameter should be smaller then the analysed area of study (global). For focal areas that include the analysed area of study as a whole, the obtained results become equal to the original Getis-Ord G*.<br/><br/><br/>
+
 <sup>1</sup> https://publikationen.bibliothek.kit.edu/1000083353<br/>
 <sup>2</sup> https://publikationen.bibliothek.kit.edu/1000071483<br/><br/>
 
