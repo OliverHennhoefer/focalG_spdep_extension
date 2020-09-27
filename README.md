@@ -13,7 +13,7 @@ As for spdep::localG(), additionally:
 The function is written in the same manner as __spdep::localG__, implementing the original Getis-Ord G* and can be applied in thevery same way. Additionally, the parameter __listw_f__ has to be defined (spdep::poly2nb and spdep::nb2listw).<br/>
 The area defined by the focal parameter should be smaller then the analysed area of study (global). For focal areas that include the analysed area of study as a whole, the obtained results become equal to the original Getis-Ord G*.<br/><br/>
 
-<img src="https://github.com/OliverHennhoefer/r-focal-getis-ord/tree/master/img/focal.png" width="600"><br/>
+<img src="https://github.com/OliverHennhoefer/r-focal-getis-ord/blob/master/img/focal.png" width="600">
 
 <sup>1</sup> https://publikationen.bibliothek.kit.edu/1000083353<br/>
 <sup>2</sup> https://publikationen.bibliothek.kit.edu/1000071483<br/>
