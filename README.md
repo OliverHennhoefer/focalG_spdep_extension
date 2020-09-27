@@ -14,7 +14,7 @@ The function is written in the same manner as __spdep::localG__, implementing th
 The area defined by the focal parameter should be smaller then the analysed area of study (global). For focal areas that include the analysed area of study as a whole, the obtained results become equal to the original Getis-Ord G*.<br/><br/>
 
 <p float="center">
-  <img src="https://github.com/OliverHennhoefer/r-focal-getis-ord/blob/master/img/focal.png" width="450">
+  <img src="https://github.com/OliverHennhoefer/r-focal-getis-ord/blob/master/img/focal.png" width="450" description="Visualized (ggplot2) output of focalG().">
 </p><br/>
 
 <sup>1</sup> https://publikationen.bibliothek.kit.edu/1000083353<br/>
